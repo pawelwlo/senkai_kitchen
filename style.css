@@ -110,4 +110,9 @@ bottom: 0;
         
         margin: 50px;
     }
+
+    .offer p {
+       
+        font-size: 19px;
+    }
 }
