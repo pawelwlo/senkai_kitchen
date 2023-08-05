@@ -2,24 +2,32 @@
 
 header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:space-between;
     align-items: center;
     height: 180px;
-    background-color: rgb(227, 217, 203);
     padding: 20px;
     box-shadow: 2px 2px 2px 1px rgba(229, 20, 20, 0.2);
     border: solid pink;
+    background: url(background-small.png);
+    background-size: cover;
 }
 
 header h1 {
-    font-size: 30px;
+    font-size: 80px;
     font-family: Dancing Script;
     color: rgb(222, 117, 135);
+    text-shadow: 1px 1px 2px black;
+    align-items: center;
+    padding: 20px;
 }
 
 .info {
+    width: 20%;
+    height: 100%;
     display: flex;
+    justify-content: flex-end;
+    
 
 }
 
@@ -27,14 +35,19 @@ header h1 {
     padding-right: 10px;
     text-decoration: none;
     color: brown;
-    font-family: 'Comfortaa', 'Arial Narrow', Arial, sans-serif;
+    font: 500 1rem 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+.info a:hover {
+    color: aliceblue;
 }
 
 #logo {
-    width: 80px;
+    width: 180px;
     height: auto;
     border-radius: 100px;
-
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .main {
@@ -114,6 +127,47 @@ bottom: 0;
     .offer p {
        
         font-size: 19px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 180px;
+        padding: 20px;
+        box-shadow: 2px 2px 2px 1px rgba(229, 20, 20, 0.2);
+        border: solid pink;
+        background: url(background-small.png);
+        background-size: cover;
+    }
+    #logo {
+        width: 80px;
+        height: auto;
+        border-radius: 100px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+        font-size: 30px;
+        font-family: Dancing Script;
+        color: rgb(222, 117, 135);
+        text-shadow: 1px 1px 2px black;
+        padding: 0;
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .info a {
+        padding-right: 10px;
+        text-decoration: none;
+        color: brown;
+        font: 500 1rem 'Quicksand', sans-serif;
+        
     }
 }
 
