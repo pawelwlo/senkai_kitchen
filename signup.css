@@ -1,0 +1,162 @@
+header {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  /* align-items: center; */
+  height: max-content;
+  padding: 20px;
+
+  background-color:  #E3E7E8;
+}
+
+body {
+  background-color:  #E3E7E8;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header h1 {
+  font-size: 60px;
+  font-family: Dancing Script;
+  color: rgb(222, 117, 135);
+  text-shadow: 1px 1px 2px black;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.header{
+  width: 100%;
+  height: 100%;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header a {
+  padding-right: 10px;
+  text-decoration: none;
+  color: brown;
+  font: 500 1rem 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+.header a:hover {
+  color: rgb(23, 18, 13);
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+    border-radius: 100px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    display: flex;
+    
+    justify-content: center;
+    padding-top: 10%;
+    align-items: center;
+    margin: 0;
+}
+
+
+
+
+  
+
+  .signup_form {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(242, 218, 229); 
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px 2px rgba(49, 47, 45, 0.8); /* Add a subtle shadow */
+    width: 300px; /* Adjust the width as needed */
+    /*  */
+  }
+
+  .signup_form button {
+    background-color: #bd67a9; /* Pink background color for the button */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+  }
+  
+  .signup_form button:hover {
+    background-color: #ff69b4; /* Lighter pink on hover */
+  }
+
+  .signup_form input[type="text"],
+  .signup_form input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #bd67a9; /* Pink border for input fields */
+    border-radius: 5px;
+  }
+  
+  .signup_form input[type="text"]:focus,
+  .signup_form input[type="password"]:focus {
+    outline: none;
+    border-color: #ff69b4; /* Lighter pink on focus */
+  }
+
+  .signup_form input[type="text"],
+  .signup_form input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #bd67a9; /* Pink border for input fields */
+    border-radius: 5px;
+  }
+  
+  .signup_form input[type="text"]:focus,
+  .signup_form input[type="email"]:focus {
+    outline: none;
+    border-color: #ff69b4; /* Lighter pink on focus */
+  }
+
+  .footer {
+    display: flex;
+    
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color:  #E3E7E8;
+    
+    
+}
+
+.about img {
+    width: 50px;
+    height: auto;
+}
+
+.ig img {
+    margin-right: 50px;
+}
+
+.ig img{
+    width: 30px;
+    height: auto;
+}
